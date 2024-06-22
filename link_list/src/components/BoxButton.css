@@ -1,0 +1,9 @@
+.box-button{
+    width: 298px;
+    height: 54px;
+    background: #F5F3CB;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+}
