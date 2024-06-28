@@ -95,7 +95,7 @@ const MainPage: React.FC = () => {
                 <Top>
                     매장 위치
                 </Top>
-                <Button>매장 오시는 길</Button>
+                <Button href="https://m.place.naver.com/restaurant/1886953047/home?entry=plt" target="_blank" rel="noopener noreferrer">매장 오시는 길</Button>
             </Container>
 
         </>
