@@ -14,6 +14,8 @@ const Button = styled.a`
     background-color: #F5F3CB;
     width: 298px;
     height: 54px;
+    min-width: 298px;
+    min-height: 54px;
     border-radius:20px; 
     :hover{
         outline-color: transparent;
@@ -37,15 +39,8 @@ const Container = styled.div`
     font-size:18px;  
     height: 100vh;
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    @media (max-width: 600px) {
-        font-size: 16px;
-    }
-
-    @media (max-width: 400px) {
-        font-size: 14px;
-    }
+    margin: 0px;
+    padding: 0px;
 `;
 const Top = styled.text`
     color: #8AC97F;
