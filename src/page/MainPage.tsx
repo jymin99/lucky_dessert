@@ -37,8 +37,8 @@ const Container = styled.div`
     font-size:18px;  
     height: 100vh;
     width: 100%;
-    max-width: 400px;
     margin: 0 auto;
+    padding: 0;
     @media (max-width: 600px) {
         font-size: 16px;
     }
