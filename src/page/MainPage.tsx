@@ -3,6 +3,9 @@ import styled from "styled-components";
 import GlobalFont from "../styles/GlobalFont";
 import GlobalStyle from "../styles/GlobalStyle";
 import Logo from '../assets/images/logo.png';
+import Kakao from '../assets/images/kakao.png'
+import Insta from '../assets/images/insta.png'
+import Naver from '../assets/images/naver.png'
 
 const Button = styled.a`
     display:flex;
@@ -33,18 +36,37 @@ const Container = styled.div`
     font-family: chab;  
     font-size:18px;  
     height: 100vh;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 14px;
+    }
 `;
-const Top=styled.text`
+const Top = styled.text`
     color: #8AC97F;
     margin-bottom: 15px;
     margin-top: 8px;
 `;
-const Image=styled.img`
+const Image = styled.img`
     width: 135px;
     height: 135px;
     margin: 30px;
     /* 이미지 url로드 */
+`;
+const ImageLink = styled.a`
+    width: 47px;
+    margin-right: 15px;
+    margin-left: 15px;
+`;
+const SocialLink=styled.div`
+    display:flex;
+    flex-direction: row;
+    margin-bottom:20px;
 `;
 
 const MainPage: React.FC = () => {
@@ -53,7 +75,18 @@ const MainPage: React.FC = () => {
             <GlobalFont />
             <GlobalStyle />
             <Container>
-                <Image src={Logo} alt="logo"/>
+                <Image src={Logo} alt="logo" />
+                <SocialLink>
+                    <ImageLink href="https://www.instagram.com/lucky7_dessert?igsh=N3F5aDhhdDh2ems3&utm_source=qr"  target="_blank" rel="noopener noreferrer">
+                        <img src={Insta} alt="insta"/>
+                    </ImageLink>
+                    <ImageLink href="https://pf.kakao.com/_eWeeG" target="_blank" rel="noopener noreferrer">
+                        <img src={Kakao} alt="kakao"/>
+                    </ImageLink>
+                    <ImageLink href="https://m.place.naver.com/restaurant/1886953047/home" target="_blank" rel="noopener noreferrer" >
+                    <img src={Naver} alt="naver"/>
+                    </ImageLink>
+                </SocialLink>
                 <Top>
                     Special Season Menu
                 </Top>
