@@ -33,6 +33,7 @@ const Container = styled.div`
     font-family: chab;  
     font-size:18px;  
     height: 100vh;
+    width: 400px;
 `;
 const Top=styled.text`
     color: #8AC97F;
