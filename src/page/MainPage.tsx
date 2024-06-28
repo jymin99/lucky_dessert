@@ -70,7 +70,9 @@ const MainPage: React.FC = () => {
             <GlobalFont />
             <GlobalStyle />
             <Container>
+                {/* 로고 삽입 */}
                 <Image src={Logo} alt="logo" />
+                {/* 소셜 링크들 */}
                 <SocialLink>
                     <ImageLink href="https://www.instagram.com/lucky7_dessert?igsh=N3F5aDhhdDh2ems3&utm_source=qr"  target="_blank" rel="noopener noreferrer">
                         <img src={Insta} alt="insta"/>
@@ -82,6 +84,7 @@ const MainPage: React.FC = () => {
                     <img src={Naver} alt="naver"/>
                     </ImageLink>
                 </SocialLink>
+                {/* 음식 목록->배송페이지로 바로 이동 */}
                 <Top>
                     Special Season Menu
                 </Top>
@@ -92,6 +95,7 @@ const MainPage: React.FC = () => {
                 <Button href="https://smartstore.naver.com/lucky_dessert/products/10250304574?" target="_blank" rel="noopener noreferrer">아메리칸 쿠키 택배</Button>
                 <Button href="https://smartstore.naver.com/lucky_dessert/products/10468490976" target="_blank" rel="noopener noreferrer">버터바 택배</Button>
                 <Button href="https://smartstore.naver.com/lucky_dessert/products/10250623505?" target="_blank" rel="noopener noreferrer">아메리칸 스콘 택배</Button>
+                {/* 매장 위치 페이지 */}
                 <Top>
                     매장 위치
                 </Top>
