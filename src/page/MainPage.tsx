@@ -37,7 +37,7 @@ const Container = styled.div`
     flex-direction: column;
     font-family: chab;  
     font-size:18px;  
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
