@@ -32,6 +32,7 @@ const Button = styled.a`
 
 const Container = styled.div`
     display: flex;
+    justify-content: center;
     background-color: #FFFEF3;
     align-items: center;
     flex-direction: column;
