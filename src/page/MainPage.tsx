@@ -90,7 +90,6 @@ const MainPage: React.FC = () => {
                 <Top>
                     Special Season Menu
                 </Top>
-                <Button href="https://naver.me/GfCoNiSN" target="_blank" rel="noopener noreferrer" style={{marginBottom:'3px'}}>추석 답례품</Button>
                 <Button href="https://smartstore.naver.com/lucky_dessert/products/10504310663" target="_blank" rel="noopener noreferrer">수제 두바이초콜릿</Button>
                 <Top>
                     Lucky Dessert Top3
